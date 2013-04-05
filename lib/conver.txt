@@ -1,0 +1,17 @@
+-View item information: "Please enter a valid search keyword"
+
+send lang here ang mga rowts carrots
+
+-kieth sa pagsearch sa item, kung wla ang item please butang ug error na "Item doesn't exist" 
+
+okay
+
+wla man gud error mugawas.
+
+aha na mana siya?
+aha na dapit?
+
+-search an item did2 sa inventory
+
+aaawp
+okay2

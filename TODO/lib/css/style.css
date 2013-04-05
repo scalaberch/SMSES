@@ -1,0 +1,154 @@
+html{
+	background: url(/SMSES/lib/img/background.PNG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+	font-family: Calibri, Century Gothic, Ubuntu;
+	color: white;
+	font-size:100%;
+}
+
+/* This is the topbar menu */
+
+#header{
+	background-image: url(/SMSES/lib/img/dark-transparent.PNG);
+	width:102%; margin: -8px 0px 0px -12px;
+	height:50px; /* font-weight:bold; */
+}
+
+#header ul{ list-style:none; margin-top:8px;}
+#header ul li { float:left; margin-left:10px; }
+
+#header .text {
+	margin-top:5px;
+}
+
+#header #left-header{
+	margin-left:5px;
+	padding-top:1px;
+}
+
+#header #right-header {
+	float:right;
+	margin-right:15px;
+	margin-top:-16px;
+}
+
+/* This is the topbar menu */
+
+#login {
+	margin-left:4%;
+	margin-top:25%; width:25%;
+}
+
+#login #login-main-text {
+	font-size:200%; font-family: Corbel;
+	border-bottom:1px plain white;
+}
+
+#login #login-main-content ul {
+	list-style:none; margin-left:-16%;
+}
+
+#login #login-main-content ul li{
+	margin-bottom:5px; padding:10px;
+	border-bottom:1px dotted white;
+}
+
+#login #login-main-content ul li:hover{
+	background-image: url(/SMSES/lib/img/dark-transparent.PNG);
+}
+
+.login-form , .login-table{
+	font-family: Calibri, Century Gothic, Ubuntu;
+	color: black;
+	font-size:100%;
+}
+
+.login-form-field {
+	font-family: Calibri, Century Gothic, Ubuntu; color: grey; width:100%;
+}
+
+#auth-button{
+	width:100%;
+}
+
+/* Here goes the Main Menu Styling */
+
+
+#menu #menu-welcome-text {
+	margin-top:50px; margin-left:10%;
+	font-size:210%; color: white;
+}
+
+#menu #menu-welcome-text .sub-text{
+	margin-left:10%; margin-top:-10px;
+	font-size:50%; color: orange;
+}
+
+#main-menu { float:right; }
+#main-menu ul{ list-style:none; }
+
+
+#main-menu .main-menu-buttons {
+	-moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -khtml-border-radius: 35px;
+    border-radius: 35px;
+	
+	padding-right:5px;
+}
+
+#main-menu .main-menu-buttons:hover {
+	background-image: url(/SMSES/lib/img/dark-transparent.PNG);
+}
+
+#main-menu .main-menu-buttons .main-menu-buttons-image{
+	padding:0px 0px 15px 5px;
+}
+
+#main-menu .main-menu-buttons .main-menu-buttons-text{
+	padding-top:10px; font-size:220%;
+	font-family: Corbel, Ubuntu, Purisa;
+}
+
+#main-menu-text {
+	float:left; margin-top:37%;
+	padding-left:5%; font-family: Corbel;
+}
+
+#main-menu-text #main-menu-text-head {font-size:200%;margin-bottom:-6px;}
+
+/* For the Sub-Menus */
+
+
+#sub-menu{
+	margin:auto; padding:auto;
+	width:70%; margin-top:6%;
+	margin-right:8%;
+}
+
+#sub-menu #menu {float:right; font-size:120%;}
+
+#sub-menu #menu ul { list-style:none; }
+#sub-menu #menu li{
+	border-bottom: 1px dotted white;
+	padding:5px;
+}
+#sub-menu #menu li:hover {
+	background-image: url(/18series/img/dark-transparent.PNG);
+}
+
+#sub-menu  #sub-menu-text {
+	font-family: Corbel, Ubuntu;
+	padding-top:30%; float:left;
+	margin-left:-20%;
+}
+
+#sub-menu  #sub-menu-text .sub-menu-text-main {
+	font-size:220%;
+}
